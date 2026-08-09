@@ -15,7 +15,7 @@ const gameEl = document.querySelector(".game");
       { name: "スライム", level: 1, maxHp: 40, attackMin: 5, attackMax: 9, attackInterval: 2300, color: "#2c9be2", marker: "SLIME", image: "assets/enemies/slime.png", visualWidth: "35%", visualTop: "8%" },
       { name: "コボルト", level: 2, maxHp: 62, attackMin: 7, attackMax: 12, attackInterval: 2100, color: "#9f6a39", marker: "KOBOLD", image: "assets/enemies/kobold-kouho.png", visualWidth: "35%", visualTop: "5%" },
       { name: "ゴーレム", level: 3, maxHp: 92, attackMin: 10, attackMax: 16, attackInterval: 2500, color: "#747a7f", marker: "GOLEM", image: "assets/enemies/golem-kouho.png", visualWidth: "45%", visualTop: "3%" },
-      { name: "ドラゴン", level: 4, maxHp: 135, attackMin: 14, attackMax: 22, attackInterval: 1900, color: "#b84b3d", marker: "DRAGON", image: "assets/enemies/dragon-kouho.png", visualWidth: "55%", visualTop: "-8%" }
+      { name: "ドラゴン", level: 4, maxHp: 135, attackMin: 14, attackMax: 22, attackInterval: 1900, color: "#b84b3d", marker: "DRAGON", image: "assets/enemies/dragon-kouho1.png", visualWidth: "55%", visualTop: "-8%" }
     ];
 
     const difficultyConfigs = {
